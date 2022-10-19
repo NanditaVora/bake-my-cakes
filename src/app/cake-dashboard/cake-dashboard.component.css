@@ -1,0 +1,77 @@
+#cake-container {
+    width: 98.5vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cake-cards {
+    margin: 20px 3px;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+
+#category-row {
+    padding: 6px 0px;
+    background-color: #e2b22e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin-bottom: 1px
+}
+
+a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    width: 35rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-size: x-large;
+    width: 25rem;
+}
+
+button {
+    font-size: x-large;
+    border-radius: 2rem;
+    padding: 5px 4rem;
+}
+
+button:hover {
+    cursor: grab;
+}
+
+img {
+    padding: 0;
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 2rem;
+        width: 20rem;
+        margin-top: 2rem;
+    }
+
+    span {
+        width: 15rem;
+    }
+}

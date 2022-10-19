@@ -1,0 +1,30 @@
+footer {
+    background-color: #e91e63;
+    font-family: 'Lato', san-serif;
+    width:99.5vw;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+  }
+
+ul li {
+    font-size: 1.5em;
+    padding: 0 10px 10px 10px;
+    }
+
+ul li a {
+    text-decoration: none;
+    font-size: medium;
+}
+
+button {
+    border-radius: 2rem;
+}
+
+.footer-nav-social img {
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}

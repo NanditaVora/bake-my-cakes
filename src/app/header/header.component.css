@@ -1,0 +1,41 @@
+#header-row {
+    width:99vw;
+    display: flex;
+    background-color: #e91e63;
+    padding: 25px 35px;
+    min-height: 90px;
+    justify-content: space-between;
+}
+
+.nav-links {
+   justify-content: right;
+}
+#brand-name {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+#brand-name > * {
+    font-family: cursive;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+#brand-name > h1 {
+    font-size: 40px;
+}
+
+#brand-name > h2 {
+    font-size: smaller;
+}
+
+#search-panel { 
+    display: flex;
+    flex-direction: end; 
+} 
+
+a {
+    color: whitesmoke;
+}

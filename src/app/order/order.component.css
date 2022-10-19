@@ -1,0 +1,9 @@
+td {
+  padding-right: 8px;
+}
+mat-form-field {
+  display: block;
+}
+button {
+  margin-right: 20px;
+}

@@ -1,0 +1,9 @@
+<a routerLink="../cakes/{{cake?.id}}">
+    <mat-card mat-ripple [matRippleCentered]="true" class="card-content">
+        <img src="assets/images/{{cake?.name}}.jpg" alt="" width="250px" height="220px">
+        <mat-card-content>
+            <h4>{{cake?.name}}</h4>
+            <h4>${{cake?.price}}</h4>
+        </mat-card-content>
+    </mat-card>
+</a>

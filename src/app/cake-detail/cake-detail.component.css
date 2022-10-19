@@ -1,0 +1,99 @@
+.card-content {
+  margin: auto;
+  padding: 12px;
+  width: fit-content;
+}
+
+
+
+.img {
+  padding: 10px;
+  margin-top: 100px;
+  width: 100%;
+}
+ul li{
+  margin-left: auto;
+  text-align: left;
+}
+td {
+  padding-right: 8px;
+}
+.side-content {
+  float: left;
+  margin-top: -940px;
+
+  margin-left: 800px;
+  color: brown;
+}
+#heading {
+  display: inline-flex;
+}
+
+#heading > h1 {
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+p,li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+
+
+}
+
+.form {
+  padding-top: 40px;
+  margin-left: 12em;
+  float: left;
+  width: 70%;
+  font-size: medium;
+}
+
+.mat-radio-button~.mat-radio-button {
+  margin-left: 10px;
+}
+
+span {
+  font-size: 20px;
+  color: brown;
+  font-weight: bold;
+  margin-left: 600px;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.form-header {
+  margin-left: 200px;
+
+}
+
+mat-form-field {
+  display: block;
+}
+
+button {
+  margin-right: 20px;
+}
+
+.example-card {
+  max-width: 700px;
+  margin-top: 70px;
+}
+
+#leftContainer {
+  float: left;
+
+}
+
+#rightContainer {
+  float: right;
+
+}
+
+span {
+  display: block;
+}

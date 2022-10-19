@@ -1,0 +1,28 @@
+<div id="cake-container">
+<div id="category-row" class="container-fluid row mt-0 mx-0 h-auto">
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('')">CHOCOLATES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('cakes')">CUPCAKES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('cup cakes')">COOKIES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('cheese cakes')">CHEESECAKES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('cookies')">BROWNIES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('brownies')">CAKES</a>
+    <a class="col-12 col-md-1 col-sm-12" (click)="filterItems('chocolates')">ALL</a>
+</div>
+
+<section class="hero-unit container-fluid mx-0 px-0 px-xl-0 mx-xl-0 row">
+    <section
+        class="col-sm-12 col-md-6 col-lg-6 bg-light d-flex text-center flex-column align-items-center justify-content-center">
+        <h1 class="text-wrap lh-1">Birthday Cake Delivery</h1>
+        <span class="text-wrap lh-1">Same Day and Midnight Delivery</span>
+        <div>
+            <button class="m-4 btn btn-lg btn-outline-warning">Shop Now</button>
+        </div>
+    </section>
+
+    <img class="d-none d-sm-block col-sm-12 col-md-6 col-lg-6" src="../../assets/images/Classic Cheesecake.jpg" alt="">
+
+</section>
+
+    <app-cake-card class="cake-cards" *ngFor="let cake of cakes" [cake]="cake">
+    </app-cake-card>
+</div>
