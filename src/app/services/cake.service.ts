@@ -8,7 +8,8 @@ import { Cake } from '../models/cake';
 })
 export class CakeService {
 
-  URL: string = "http://localhost:3000/cakes";
+  // URL: string = "http://localhost:3000/cakes";
+  URL: string = "https://my-json-server.typicode.com/nanditavora/bake-my-cake-server/cakes";
 
   cakes: Array<Cake> = [];
   constructor(private http: HttpClient) { 
